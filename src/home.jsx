@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
-import Home from './pages/home.jsx'
-import Prices from './pages/prices.jsx'
-import Contact from './pages/contact.jsx'
+import Home from './pages/Home.jsx'
+import Prices from './pages/Prices.jsx'
+import Contact from './pages/Contact.jsx'
 import Blog from './pages/Blog.jsx'
 import Http404 from './pages/Http404.jsx'
 import FAQ from './pages/FAQ.jsx'
@@ -16,7 +16,7 @@ import { defer, RouterProvider, createBrowserRouter, createRoutesFromElements, R
 import { query, endpoint } from './services/index-en.js'
 import request from 'graphql-request'
 import Article from './components/Article.jsx'
-import Impressum from './pages/impressum.jsx'
+import Impressum from './pages/Impressum.jsx'
 import Career from './pages/Career.jsx'
 
 

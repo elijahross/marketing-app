@@ -4,17 +4,10 @@ import Navbar from "./components/Navbar.jsx"
 import Footer from './components/Footer.jsx'
 import { Outlet } from 'react-router-dom'
 import { ScrollRestoration } from 'react-router-dom'
-import ReactGA from 'react-ga'
-import { useEffect } from 'react'
 
 
 
 export const App = () => {
-  const TRACKING_ID = "UA-291846779-1";
-  ReactGA.initialize(TRACKING_ID);
-  useEffect(() => {
-    ReactGA.pageview(window.location.pathname + window.location.search);
-  }, []);
 
   return(
     <div className="bg-primary w-full overflow-hidden">
@@ -29,8 +22,7 @@ export const App = () => {
           getKey={(location, matches) => {
             // default behavior
             return location.key;
-          }}
-        />
+          }}/>
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>

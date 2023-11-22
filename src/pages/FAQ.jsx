@@ -4,10 +4,6 @@ import { useTranslation } from 'react-i18next'
 import { Accordion, AccordionItem as Item} from '@szhsin/react-accordion'
 import { close } from "../assets";
 
-
-/**
- * @type {React.ExoticComponent<import('@szhsin/react-accordion').AccordionItemProps>}
- */
 const AccordionItem = ({ header, ...rest }) => (
   <Item
     {...rest}

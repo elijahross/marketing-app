@@ -17,7 +17,7 @@ if (i18n.resolvedLanguage === 'en') {
         <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
             <div className=" w-full flex justify-between flex-wrap md:mt-0 mt-10">
             <div className="sm:self-end self-center">
-                <img src="" alt="ER" className="sm:w-[180px] w-[125px] object-contain" />
+                <img src="" alt="ER" className="" />
             </div>
                 {card.map((footerLink) =>(
                     <div key={footerLink.id} className="flex flex-col ss:my-0 my-4 min-w-[150px]">

@@ -1,7 +1,7 @@
 # React + Vite + Tailwind
 
 
-Live Demo: https://codesandbox.io/p/github/elijahross/marketing-app/portfolio?import=true&embed=1&file=%2Findex.html
+Live Demo: https://portfolio.dg68sabgjam27.amplifyapp.com/
 
 🚀 Welcome to the GitHub Marketing-Site Extravaganza! 🌟
 
@@ -16,3 +16,5 @@ In my mission to break the language barriers across the universe, I've used Hygr
 And for those moments when you want to say Hello! from light-years away, my Contact Form, powered by emailjs, ensures your messages reach me, where ever I am. 📬💫
 
 So buckle up, fellow space traveler, and get ready for a voyage through the stars, guided by the cutting-edge technologies that make this GitHub Repo the coolest corner of the digital galaxy. The future is now, and it's funkier than ever! 🚀🎉
+
+*Description-Text generated with ChatGpt
